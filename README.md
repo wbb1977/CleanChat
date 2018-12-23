@@ -1,5 +1,5 @@
 # CleanChat
-Vanialla World of Warcraft Addon 
+Vanialla World of Warcraft Chat Addon 
 
 # Functions
 * Removes [Guild], [Party], [Raid] and [Officer] prefix from chat.
