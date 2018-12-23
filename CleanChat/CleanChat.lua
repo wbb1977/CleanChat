@@ -60,6 +60,12 @@ local EVENTS_EMOTES = {
 -- works only for numbers between 0-255;
 local CLEANCHAT_HEX = { [0] = "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f" };
 function CleanChat_ToHex(number)
+  if number <= 0 then
+    return "00";
+  end
+  if number >= 255 then
+    return "ff";
+  end
   if math.fmod then
     return CLEANCHAT_HEX[math.floor(number / 16)] .. CLEANCHAT_HEX[math.fmod(number, 16)];
   end
