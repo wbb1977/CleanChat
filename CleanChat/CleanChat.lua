@@ -1,14 +1,20 @@
 --
--- CleanChat testversion17a
+-- CleanChat v18
 --
 -- by Bastian Pflieger <wbb1977@gmail.com>
 --
--- Last update: June 09, 2007
+-- Created: June 09, 2007
+--
+-- supports "myAddOns" up to v2.6: https://wow.curseforge.com/projects/my-add-ons
 --
 
---
+
+-- December 27, 2018:
+-- clean up for private server WoW Vanialla 1.12
+-- fixed a 'nil' error in CleanChat_ToHex() function
+
+-- December 20, 2018:
 -- fix for Light's Hope WoW Vanialla server (old client use math.mod instead math.fmod)
--- December 20, 2018 by wbb :)
 -- 
 
 local TIMEOUT_ONE_HOUR = 60 * 60; -- 60 minutes

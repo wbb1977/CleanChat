@@ -22,7 +22,7 @@
   CLEANCHAT_LOADED = " loaded.";
   CLEANCHAT_LOADED_CACHE = CLEANCHAT_VERSION .. " loaded (%d names cached)."
 
-  CLEANCHAT_MYADDONS_DESCRIPTION = "Removes [Party], [Raid], [Officer] and [Guild] prefix from chat messages.";
+  CLEANCHAT_MYADDONS_DESCRIPTION = "Colorize names, shows level, shortens channel names and more.";
 
   CLEANCHAT_CHANNELS = {
     {},

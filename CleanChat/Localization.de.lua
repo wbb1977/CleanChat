@@ -27,7 +27,7 @@ if GetLocale() == "deDE" then
   CLEANCHAT_LOADED = " geladen.";
   CLEANCHAT_LOADED_CACHE = CLEANCHAT_VERSION .. " geladen (%d Namen im Cache)."
 
-  CLEANCHAT_MYADDONS_DESCRIPTION = "Entfernt [Gruppe], [Schlachtzug], [Offizier] und [Gilde] Prefix im Chat.";
+  CLEANCHAT_MYADDONS_DESCRIPTION = "Farbige Namen, Levelanzeige, k\195\188rzt Kanalname und mehr.";
 
   CLEANCHAT_CHANNELS = {
     {},
