@@ -17,10 +17,10 @@ Vanialla World of Warcraft Chat Addon
 * Highlight custom text in chat message (requires to edit a textfile, advanced users only). 
 
 # Commands
-Enter '/cleanchat' or bind a key to show the configuration window. There you can enable/disable the addon functions.
+Enter <code>/cleanchat</code> or bind a key to show the configuration window. There you can enable/disable the addon functions.
 
 If you choose to enable the option "Show level" and/or "Use class colors" there a few things to note:
-* The level and class of your party / raid / guild / friends is always known.
+* The level and class of your party, raid and guild members as well as friends is always known.
 * To show levels and apply class colors to random chat people, you have to allow the addon to use the /who command. If the random is first seen by the addon then it will initiate a /who query, so the second time the random types a message the information can be applied. If a lot of chitchat is going on, the addon can not keep up because a /who command is only allowed every three seconds. But sooner or later the information is gathered. Keep in mind that the level information afterwards will not be updated as long as the random is known by the addon.
 * If you save the collected information about randoms and you don't see a name for three days all information about the name will be deleted. The collected information are stored per character.
 * If you disable the save option, the name information will be lost after a hour or on logout. 
